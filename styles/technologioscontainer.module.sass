@@ -1,0 +1,47 @@
+@use 'variables'
+@use 'mixins'
+
+.technology_container
+    margin-bottom: 1rem
+
+.technology_grid
+    display: flex
+    flex-wrap: wrap
+    gap: 1.5rem
+    
+    h3
+        color: variables.$text-color
+        margin-bottom: 1rem
+    i
+        font-size: 6rem
+    
+    
+            
+.technology_card_html, 
+.technology_card_css, 
+.technology_card_js, 
+.technology_card_react, 
+.technology_card_sass
+    @include mixins.center
+    gap: 1rem
+    padding: 1rem
+    border: 1px solid #333
+    width: 45%
+    border-radius: variables.$card-border-radius
+    > .fa-html5
+        color: #fff
+
+.technology_card_html
+    color: #e44d26
+
+.technology_card_css
+    color: #1572b6
+
+.technology_card_js
+    color: #f0db4f
+
+.technology_card_react
+    color: #83cd29
+
+.technology_card_sass
+    color: #00618a

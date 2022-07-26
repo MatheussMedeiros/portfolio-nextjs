@@ -29,8 +29,6 @@
     width: 45%
     background-color: variables.$bg-color-secundary
     border-radius: variables.$card-border-radius
-    > .fa-html5
-        color: #fff
 
 .technology_card_html
     color: #e44d26
@@ -46,3 +44,21 @@
 
 .technology_card_sass
     color: #00618a
+
+@media (max-width: 800px)  
+    .technology_grid
+        display: block
+    
+    .technology_card_html, 
+    .technology_card_css, 
+    .technology_card_js, 
+    .technology_card_react, 
+    .technology_card_sass
+        width: 100%
+        margin: 0 auto
+        margin-bottom: 30px
+
+@media (max-width: 447px)  
+    .technology_grid
+        i
+            font-size: 4rem

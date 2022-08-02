@@ -14,38 +14,23 @@ const TechnologiesContainer = () => {
     <div className={styles.technology_grid}>
       <div className={styles.technology_card_html}>
         <i className="fa-brands fa-html5"></i>
-          <div>
-            <h3>HTML5</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
+        <h3>HTML</h3>
       </div>
       <div className={styles.technology_card_css}>
-      <i className="fa-brands fa-css3"></i>
-          <div>
-            <h3>CSS3</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
+        <i className="fa-brands fa-css3"></i>
+        <h3>CSS</h3>
       </div>
       <div className={styles.technology_card_js}>
-      <i className="fa-brands fa-js"></i>
-          <div>
-            <h3>JavaScript</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
+        <i className="fa-brands fa-js"></i>
+        <h3>JavaScript</h3>
       </div>
       <div className={styles.technology_card_react}>
-      <i className="fa-brands fa-react"></i>
-          <div>
-            <h3>React</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
+        <i className="fa-brands fa-react"></i>
+        <h3>React</h3>
       </div>
       <div className={styles.technology_card_sass}>
-      <i className="fa-brands fa-sass"></i>
-          <div>
-            <h3>SASS</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
+        <i className="fa-brands fa-sass"></i>
+        <h3>SASS</h3>
       </div>
           </div>
   </section>;

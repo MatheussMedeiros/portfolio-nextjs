@@ -12,7 +12,7 @@ const ProjectList = () => {
         <Image src="/images/doceria.png" width="280" height="280" alt="doceria" className={styles.img}/>
       </a>
         <div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic maxime porro praesentium quaerat fuga iste? Alias, eos officiis. Necessitatibus recusandae quaerat natus voluptatem earum quia expedita consequatur sunt voluptatibus unde.</p>
+          <p>Projeto exoerimental de um dociria feito com Html, Css e JavaScrip, com o uso de um Modal para a Galeria de fotos.</p>
           <a href="https://github.com/MatheussMedeiros/Projeto-doceria" className={styles.btn}>
             Ver repositorio
           </a>
@@ -26,7 +26,7 @@ const ProjectList = () => {
         <Image src="/images/hospedagem.png" width="280" height="280" alt="Hospedagem" className={styles.img}/>
       </a>
         <div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic maxime porro praesentium quaerat fuga iste? Alias, eos officiis. Necessitatibus recusandae quaerat natus voluptatem earum quia expedita consequatur sunt voluptatibus unde.</p>
+          <p>Projeto experimental de um site de hospedagem com uso de Html e Css, com o uso de Flex Box!</p>
           <a href="https://github.com/MatheussMedeiros/Projeto-site-hospedagem" className={styles.btn}>
             Ver repositorio
           </a>

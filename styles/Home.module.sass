@@ -13,8 +13,15 @@
     background: variables.$gradient
     -webkit-background-clip: text
     -webkit-text-fill-color: transparent 
+
+.grid_container
+  display: grid
+  grid-template-columns: 350px 1fr
+  gap: 30px
 @media (max-width: 1200px)  
     .container 
+      display: block
+    .grid_container
       display: block
 
 @media (max-width: 447px)  
@@ -24,3 +31,7 @@
 @media (max-width: 375px)  
     .container
       padding: 0rem
+@media (max-width: 350px) 
+  .container
+    h1
+      font-size: 3rem

@@ -32,6 +32,19 @@ const ProjectList = () => {
           </a>
         </div>
       </div>
+    </div><div className={styles.list_box}>
+      <h2>Projetos Poknext Experimental</h2>
+      <div className={styles.list_container}>
+      <a href="https://pokenext-pink.vercel.app/" className={styles.list_img}>
+        <Image src="/images/pokemon.png" width="280" height="280" alt="Hospedagem" className={styles.img}/>
+      </a>
+        <div>
+          <p>Projeto com Next.js utilizando API externa e hospedado na VERCEL!</p>
+          <a href="https://github.com/MatheussMedeiros/pokenext" className={styles.btn}>
+            Ver repositorio
+          </a>
+        </div>
+      </div>
     </div>
     <Link href="/" >
       <a href="#" className={styles.btn_voltar}>voltar</a>
